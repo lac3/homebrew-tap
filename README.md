@@ -1,7 +1,10 @@
 # lac3 Homebrew tap
 
 ```bash
-brew install lac3/tap/gpg-gui
+brew tap lac3/tap
+brew trust lac3/tap
+brew install gpg-gui
+ln -sf "$(brew --prefix gpg-gui)/GPG GUI.app" /Applications/
 ```
 
 | Formula | Description |
